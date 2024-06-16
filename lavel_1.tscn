@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://da6k828ti6mfl"]
+
+[ext_resource type="Texture2D" uid="uid://di0us3xnbls6j" path="res://icon.svg" id="1_287ky"]
+
+[node name="lavel1" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(611, 234)
+scale = Vector2(3.47266, 2.01172)
+texture = ExtResource("1_287ky")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -65.0
+offset_top = -68.0
+offset_right = 116.0
+offset_bottom = -18.0
+theme_override_font_sizes/font_size = 36
+text = "уровень 1"
